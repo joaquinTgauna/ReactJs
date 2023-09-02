@@ -1,26 +1,21 @@
 import './App.css'
-import NavBar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ItemListConteiner from './pages/ItemListConteiner';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import Landing from './components/Landing';
+import Home from './components/Home/Home';
+import CartContent from './components/CartContent/CartContent';
+import { DataProvider } from './components/context/DataContext';
 function app() {
+  console.log("app")
   return (
-    <div>
-      <NavBar />
+    <DataProvider>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Landing />} />
-          <Route path='/productos/cartas' />
-          <Route path='/productos/folios' />
-          <Route path='/productos' element={<ItemListConteiner />} />
-          <Route path='/producto/:id' />
-          <Route path='/*' element={<h1>404-Not Found</h1>} />
+          <Route path='/' element={<Home />} />
+          <Route path="/cart" element={<CartContent />} />
         </Routes>
 
       </BrowserRouter>
-    </div>
+    </DataProvider>
 
   );
 }

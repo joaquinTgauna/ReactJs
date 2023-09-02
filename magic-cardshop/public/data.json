@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Webcam",
+        "price": 800,
+        "model": "Webcam logitech",
+        "img": ""
+    },
+    {
+        "id": 2,
+        "name": "Webcam",
+        "price": 800,
+        "model": "Webcam logitech",
+        "img": ""
+    },
+    {
+        "id": 3,
+        "name": "Webcam",
+        "price": 800,
+        "model": "Webcam logitech",
+        "img": ""
+    },
+    {
+        "id": 4,
+        "name": "Webcam",
+        "price": 800,
+        "model": "Webcam logitech",
+        "img": ""
+    },
+    {
+        "id": 5,
+        "name": "Webcam",
+        "price": 800,
+        "model": "Webcam logitech",
+        "img": "https://www.waylandgames.co.uk/media/catalog/product/cache/2084baba73d119b1908ff51a269fa7e4/W/T/WTCD03090001_A_cover_6078.jpg"
+    }
+]
