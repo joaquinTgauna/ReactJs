@@ -1,37 +1,56 @@
 [
     {
         "id": 1,
-        "name": "Webcam",
+        "name": "Marneus Calgar",
         "price": 800,
-        "model": "Webcam logitech",
-        "img": ""
+        "img": "",
+        "quanty": 1,
+        "type": "Card",
+        "details": "MTG card, type monster"
     },
     {
         "id": 2,
         "name": "Webcam",
         "price": 800,
-        "model": "Webcam logitech",
-        "img": ""
+        "img": "",
+        "quanty": 1,
+        "type": "Tools",
+        "details": "MTG Deckbox,Ultra Pro,Dark Blue"
     },
     {
         "id": 3,
         "name": "Webcam",
         "price": 800,
-        "model": "Webcam logitech",
-        "img": ""
+        "img": "",
+        "quanty": 1,
+        "type": "Card",
+        "details": "MTG card, type monster"
     },
     {
         "id": 4,
         "name": "Webcam",
         "price": 800,
-        "model": "Webcam logitech",
-        "img": ""
+        "img": "",
+        "quanty": 1,
+        "type": "Deck",
+        "details": "MTG Commander Deck, Draconic Rage, 100 Cards"
     },
     {
         "id": 5,
+        "name": "Deck Mishra",
+        "price": 5000,
+        "img": "https://www.waylandgames.co.uk/media/catalog/product/cache/2084baba73d119b1908ff51a269fa7e4/W/T/WTCD03090001_A_cover_6078.jpg",
+        "quanty": 1,
+        "type": "Deck",
+        "details": "MTG Commander Deck, Mishra, 100 Cards"
+    },
+    {
+        "id": 6,
         "name": "Webcam",
         "price": 800,
-        "model": "Webcam logitech",
-        "img": "https://www.waylandgames.co.uk/media/catalog/product/cache/2084baba73d119b1908ff51a269fa7e4/W/T/WTCD03090001_A_cover_6078.jpg"
+        "img": "",
+        "quanty": 1,
+        "type": "Tools",
+        "details": "MTG Deckbox,Ultra Pro,Red"
     }
 ]

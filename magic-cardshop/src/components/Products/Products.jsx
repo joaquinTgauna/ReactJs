@@ -1,25 +1,31 @@
 import { useContext } from 'react';
 import { DataContext } from '../context/DataContext';
 import "./Products.css";
+import ProductsDetails from './ProductsDetails';
+import { Link } from 'react-router-dom';
+
 const Products = () => {
-    const { data, cart, setCart } = useContext(DataContext);
-    const buyProducts = (Products) => {
-        console.log(Products)
-        setCart([...cart, Products])
-    }
+    const { data, cart, setCart, buyProducts } = useContext(DataContext);
+
     return (
-        data.map((Products) => {
+        <div>
 
-            return (
-                <div className='card'>
-                    <img src={Products.img} alt='img-product-card' />
-                    <h3>{Products.name}</h3>
-                    <h4>{Products.price}$</h4>
-                    <button onClick={() => buyProducts(Products)}>Add To Cart</button>
+            {
+                data.map((Products) => {
 
-                </div>
-            )
-        })
+                    return (
+                        <div className='card' key={Products.id}>
+                            <img src={Products.img} alt='img-product-card' />
+                            <h3>{Products.name}</h3>
+                            <h4>{Products.price}$</h4>
+                            <Link to={`/products/${Products.id}`}>Item Details</Link>
+
+
+                        </div>
+                    )
+                })
+            }
+        </div>
     )
 }
 
